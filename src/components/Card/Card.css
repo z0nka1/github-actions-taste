@@ -1,0 +1,56 @@
+.card_container {
+  display: flex;
+  background-color: #fff;
+  padding: 10px;
+  height: 168px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px #dedede;
+}
+
+.card_container>div {
+  flex-grow: 1;
+  padding: 50px 20px 20px;
+  position: relative;
+  transition: .3s all ease;
+  cursor: pointer;
+}
+
+.card_container>div:nth-child(1) {
+  background: url("../../assets/home_grey.png") 68px 12px no-repeat;
+  background-size: 65px;
+}
+
+.card_container>div:nth-child(2) {
+  background: url("../../assets/car_grey.png") 68px 12px no-repeat;
+  background-size: 65px;
+}
+
+.card_container>div:nth-child(3) {
+  background: url("../../assets/user_grey.png") 68px 12px no-repeat;
+  background-size: 65px;
+}
+
+.card_container>div:nth-child(4) {
+  background: url("../../assets/cap_grey.png") 68px 12px no-repeat;
+  background-size: 65px;
+}
+
+.card_container .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  z-index: 2;
+}
+
+.card_container .badge {
+  width: 24px;
+  position: absolute;
+  top: 28px;
+}
+
+.card_container .icon {
+  width: 65px;
+  position: absolute;
+  top: 12px;
+  left: 68px;
+}

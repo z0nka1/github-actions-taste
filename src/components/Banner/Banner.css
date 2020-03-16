@@ -1,0 +1,43 @@
+.banner_container > div {
+  height: 130px;
+  display: inline-block;
+  position: relative;
+}
+
+.banner_container > div:nth-child(1) {
+  background: url("../../assets/banner_1.png") center no-repeat;
+  background-size: contain;
+  margin-right: 10px;
+  width: 296px;
+}
+
+.banner_container > div:nth-child(1) img {
+  position: absolute;
+  width: 120px;
+  top: 26px;
+  left: 15px;
+}
+
+.banner_container > div:nth-child(2) {
+  background: url("../../assets/banner_2.png") center no-repeat;
+  background-size: contain;
+  width: 888px;
+}
+
+.banner_container > div:nth-child(2) img {
+  position: absolute;
+  width: 76px;
+  top: 20px;
+}
+
+.banner_container > div:nth-child(2) img:nth-child(1) {
+  left: 50px;
+}
+
+.banner_container > div:nth-child(2) img:nth-child(2) {
+  left: 300px;
+}
+
+.banner_container > div:nth-child(2) img:nth-child(3) {
+  left: 610px;
+}

@@ -1,0 +1,190 @@
+.my_concerns_container {
+  width: 1120px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.my_concerns_title {
+  position: absolute;
+  left: 55px;
+  top: 8px;
+  color: #fff;
+}
+
+.my_concerns_title > h1 {
+  font-size: 40px;
+}
+
+.my_concerns_title > p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.my_concerns_container .my_concerns_menu {
+  position: absolute;
+  left: 0;
+  top: 164px;
+  z-index: 3;
+}
+
+.my_concerns_container .my_concerns_menu li {
+  width: 190px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.my_concerns_container .my_concerns_menu li i {
+  float: left;
+  cursor: pointer;
+  font: 400 12px/14px "PingFang Regular";
+  margin-right: 20px;
+  transition: 0.3s all ease;
+}
+
+.my_concerns_container .my_concerns_menu li span {
+  float: left;
+  cursor: pointer;
+  font: 700 14px/14px "Microsoft Yahei";
+  width: 80px;
+  transition: 0.3s all ease;
+}
+
+.my_concerns_container .my_concerns_menu li b {
+  overflow: hidden;
+  margin-top: 6px;
+  float: left;
+  width: 0;
+  height: 2px;
+  background-color: #3d99bc;
+  transition: 0.3s all ease;
+}
+
+.my_concerns_container .my_concerns_menu li.cur {
+  color: #3d99bc;
+  font-size: 16px;
+}
+
+.my_concerns_container .my_concerns_menu li.cur b {
+  width: 75px;
+}
+
+.my_concerns_container .my_concerns_content {
+  float: right;
+  margin-top: 85px;
+  width: 877px;
+  height: 400px;
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.my_concerns_container .my_concerns_content > li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 600px;
+  height: 400px;
+  padding-left: 277px;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.3s all ease;
+}
+
+.my_concerns_container .my_concerns_content > li.cur {
+  opacity: 1;
+  z-index: 2;
+}
+
+.my_concerns_container .my_concerns_content > li .info {
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  top: -30px;
+  left: -73px;
+}
+
+.my_concerns_container .my_concerns_content > li .info img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 350px;
+  height: 400px;
+  z-index: 1;
+}
+
+.my_concerns_container .my_concerns_content > li .info > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 350px;
+  height: 400px;
+  padding: 60px 40px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.my_concerns_container .my_concerns_content > li .info > div > h1 {
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.my_concerns_container .my_concerns_content .btn_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.my_concerns_container .my_concerns_content .btn_container > div {
+  margin-bottom: 26px;
+}
+
+.my_concerns_container .my_concerns_content .btn_container > div > button {
+  min-width: 122px;
+}
+
+.content_grid {
+  padding-left: 41px;
+  padding-top: 60px;
+}
+
+.content_grid li {
+  width: 244px;
+  margin-right: 30px;
+  height: 168px;
+}
+
+.content_grid li > i {
+  width: 48px;
+  height: 48px;
+  margin-right: 26px;
+}
+
+.content_grid li > i.jycy {
+  background: url("../../assets/jycy.png") center center no-repeat;
+}
+
+.content_grid li > i.shbz {
+  background: url("../../assets/shbz.png") center center no-repeat;
+}
+
+.content_grid li > i.zfbz {
+  background: url("../../assets/zfbz.png") center center no-repeat;
+}
+
+.content_grid li > i.wzcx {
+  background: url("../../assets/wzcx.png") center center no-repeat;
+}
+
+.content_grid li > div {
+  width: 170px;
+}
+
+.content_grid li > div > h4 {
+  margin-bottom: 10px;
+  padding-top: 12px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}

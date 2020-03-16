@@ -1,22 +1,109 @@
 .App {
-  text-align: center;
+  background-color: #000;
 }
 
-.App-logo {
-  height: 40vmin;
+.header {
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+  background: url("./assets/wave_3d.gif") center no-repeat;
+  background-size: contain;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header > .nav {
+  background: url("./assets/nav.png") center no-repeat;
+  background-size: contain;
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 30px;
+  padding-top: 40px;
 }
 
-.App-link {
-  color: #09d3ac;
+.header > .wave_1 {
+  position: absolute;
+  top: -310px;
+  left: 35%;
+  background: url("./assets/wave.png") center no-repeat;
+  background-size: contain;
+  width: 600px;
+  height: 600px;
+}
+
+.header > .wave_2 {
+  position: absolute;
+  top: -500px;
+  right: -676px;
+  background: url("./assets/wave.png") center no-repeat;
+  background-size: contain;
+  width: 1800px;
+  height: 1800px;
+}
+
+.header>.search {
+  background: url("./assets/search.png") left no-repeat;
+  background-size: contain;
+  width: 1200px;
+  height: 200px;
+  margin: 150px auto 0;
+  position: relative;
+}
+
+.dance {
+  position: absolute;
+    top: 92px;
+    left: 130px;
+}
+
+.header>.banner {
+  width: 1194px;
+  position: absolute;
+  left: 50%;
+  margin-left: -597px;
+  bottom: -5px;
+}
+
+.body {
+  background: url("./assets/bg.png") center no-repeat;
+  background-size: cover;
+  min-height: 3000px;
+}
+
+.body > .content {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.body > .content > .my_concerns_container,
+.body > .content > .my_service_container {
+  height: 700px;
+}
+
+.body > .content > .ad_container {
+  background: url("./assets/ad.png") center no-repeat;
+  background-size: contain;
+  min-height: 300px;
+}
+
+.body > .content > .news_container {
+  background: url("./assets/news.png") center no-repeat;
+  background-size: contain;
+  min-height: 1000px;
+}
+
+.footer {
+  background: url("./assets/footer.png") center no-repeat;
+  background-size: cover;
+  min-height: 200px;
+}
+
+.size_bar {
+  background: url("./assets/size_bar.png") center no-repeat;
+  background-size: contain;
+  width: 80px;
+  height: 300px;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  margin-top: -150px;
 }
