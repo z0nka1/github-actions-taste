@@ -15,5 +15,5 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.token_for_react_ci }}
         BRANCH: gh-pages
-        FOLDER: build
+        FOLDER: dist
         BUILD_SCRIPT: npm install && npm run build
